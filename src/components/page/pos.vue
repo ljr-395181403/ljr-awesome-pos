@@ -118,7 +118,7 @@ export default {
   // 创建页面的生命周期
   created() {
     axios
-      .get("http://47.107.227.87:8081/getOtherGoods")
+      .get("http://47.107.227.87:9001/getOtherGoods")
       .then(response => {
         // console.log(response.data);
         this.oftenGoods = response.data;
@@ -129,7 +129,7 @@ export default {
       });
     //读取分类商品列表
     axios
-      .get("http://47.107.227.87:8081/getClassificationGoods")
+      .get("http://47.107.227.87:9001/getClassificationGoods")
       .then(response => {
         //  console.log(response);
         //this.oftenGoods=response.data;

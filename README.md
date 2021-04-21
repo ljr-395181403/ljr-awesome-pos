@@ -1,6 +1,6 @@
 # ljr-awesome-pos
 
-> 快餐店收银系统
+# 快餐店收银系统
 
 ## Build Setup
 
